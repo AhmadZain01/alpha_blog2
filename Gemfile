@@ -19,6 +19,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'rails-controller-testing', '~> 0.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+gem 'hirb', '~> 0.7.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
