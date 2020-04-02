@@ -1,5 +1,4 @@
 <h1 align="center">Create new category</h1>
-
 <%= render 'shared/error',obj:@category %>
 <%= form_for(@category, :html => {class: "form-horizontal", role: "form"}) do |f| %>
 <div class="form-group">
@@ -18,5 +17,4 @@
 <% end %>
 <div class="col-xs-4 col-xs-offset-4">
 [ <%= link_to "Cancel request and return to articles listing", articles_path %> ]
-
 </div>
